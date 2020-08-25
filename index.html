@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora 2</title>
+</head>
+<body onload="init();">
+    <h1>Calculadora 2</h1>
+
+    <div class="calc">
+        <table>
+            <tr>
+                <td colspan="4"><span id="resultado"></span></td>
+            </tr>
+            <tr>
+                <td><button id="siete">7</button></td>
+                <td><button id="ocho">8</button></td>
+                <td><button id="nueve">9</button></td>
+                <td><button id="potencia">x<span class="super">2</span></button></td>
+            </tr>
+
+            <tr>
+                <td><button id="cuatro">4</button></td>
+                <td><button id="cinco">5</button></td>
+                <td><button id="seis">6</button></td>
+                <td><button id="raiz">√ x</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="uno">1</button></td>
+                <td><button id="dos">2</button></td>
+                <td><button id="tres">3</button></td>
+                <td><button id="log">log()</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="igual">=</button></td>
+                <td><button id="reset">C</button></td>
+                <td><button id="cero">0</button></td>
+                <td><button id="exp">exp()</button></td>
+            </tr>
+	    </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
